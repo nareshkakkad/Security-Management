@@ -1,7 +1,7 @@
 # Security-management-FE
 A Web based Security Management Solutions made with Next.JS, Tailwind and Ant-Design UI
 
-
+This Project is hosted on vercel : [Nexcent](https://security-management-swart.vercel.app/)
 ## 🏠 Built With:
 
 [![My Skills](https://skillicons.dev/icons?i=vscode,react,nextjs,tailwind,vercel)](https://skillicons.dev)
