@@ -1,0 +1,42 @@
+.Map {
+    font-family: sans-serif;
+    text-align: center;
+  }
+  
+  .search {
+    width: 100%;
+    max-width: 100%;
+    z-index: 10;
+    margin-bottom: 20px;
+  }
+  
+  .search input {
+    width: 90%;
+    border: 0.5px solid #d9d9d9;
+    border-radius: 5px;
+    padding: 4px 11px;
+    &:hover{
+      border-color: #4096ff;
+    }
+    &:focus-visible{
+      border-color: #4096ff;
+    }
+  }
+
+  [data-reach-combobox-option] {
+    cursor: pointer;
+    margin: 0;
+    padding: 0.25rem 0.5rem;
+    color: black;
+  }
+  
+  .locate {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    background: none;
+    border: none;
+    z-index: 10;
+    cursor: pointer;
+  }
+  

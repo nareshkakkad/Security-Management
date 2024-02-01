@@ -1,0 +1,103 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+    height: 100%;
+  }
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  height: 100% !important;
+}
+
+.ant-dropdown-menu {
+  margin-top: 15px !important;
+}
+
+.ant-table-wrapper {
+  margin: 40px !important;
+}
+
+
+.ant-table-thead {
+  .ant-table-cell {
+    font-size: 20px !important;
+  }
+}
+
+.ant-table-row {
+  font-size: 17px !important;
+}
+
+.ant-form {
+  max-width: 100% !important;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+label {
+  font-size: 20px !important;
+}
+
+.ant-select-in-form-item {
+  width: 950px;
+}
+
+button,
+[type='submit'] {
+  background-color: #1677ff;
+  width: 200px;
+}
+
+.ant-col-16 {
+  flex: 0;
+}
+
+.ant-col-offset-8 {
+  margin-inline-start: 0
+}
+
+.ant-tabs-tab-btn {
+  width: 130px;
+  text-align: center;
+}
+
+.collection-create-form_last-form-item {
+  margin-bottom: 0;
+}
+
+.ant-input-number-in-form-item {
+  width: 150px;
+}
+
+.map-search {
+  top: -12%;
+  right: 0.7%;
+
+}
+
+label , .ant-table-cell , .ant-card-head-title , b{
+  color: #56535c !important;
+}
+
+.ant-divider {
+  border: 1px solid rgb(5 79 95) !important;
+  &::before {
+    border: 1px solid rgb(5 79 95) !important;
+  }
+  &::after{
+    border: 1px solid rgb(5 79 95) !important;
+  }
+}
