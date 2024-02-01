@@ -1,4 +1,4 @@
-# security-management-FE
+# Security-management-FE
 A Web based Security Management Solutions made with Next.JS, Tailwind and Ant-Design UI
 
 
@@ -8,7 +8,7 @@ A Web based Security Management Solutions made with Next.JS, Tailwind and Ant-De
 
 ## 🛠 Skills
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,scss,js,react,nextjs)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,scss,js,ts,react,nextjs)](https://skillicons.dev)
 
 
 <p align="left">
